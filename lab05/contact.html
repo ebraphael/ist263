@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+
+        <h2>Eliza Raphael</h2>
+
+        <p>Syracuse University - School of Information Studies <br>
+            110 Smith Drive<br>
+            Syracuse, NY 13210</p>
+
+        <p>
+            <a href="mailto:eraphael@syr.edu">Email Eliza Raphael</a>
+            <br>
+        </p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/elizaraphael000">
+                <img src="../images/linkedin-logo-sized-black.png" alt="LinkedIn Profile">        
+            </a>
+
+            <a href="https://www.linkedin.com/in/elizaraphael000"
+                    target="_blank">My LinkedIn Profile</a>
+            <br>
+        </p>
+
+        <p>        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.153192607118!2d-76.13347999999999!3d43.03820820000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fb58d28bd%3A0xe745eb98ca092801!2sHinds%20Hall%2C%20110%20Smith%20Dr%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1789053991565!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+        </p>
+
+        <!-- form -->
+        <h2>Request to Meet with Eliza</h2>
+
+         <form action="https://formspree.io/f/xaenylbw" method="POST">
+
+            <label for="fullname">Your Full Name: </label>
+            <input type="text" id="fullname" name="fullname">
+            <br>
+
+            <!-- email of requester -->
+            <label for="email">Your Email: </label>
+            <input type="text" id="email" name="email">
+            <br>
+
+            <h3>Areas of Interest / Meeting Topic</h3>
+            <input type="checkbox" id="reason1" name="mentorship" value="Mentorship">
+            <label for="reason1">Mentorship</label>
+            <input type="checkbox" id="reason2" name="employment" value="Employment">
+            <label for="reason2">Employment</label>
+            <input type="checkbox" id="reason3" name="academics" value="Academics">
+            <label for="reason3">Academics</label>
+            <input type="checkbox" id="reason4" name="other" value="Other">
+            <label for="reason4">Other</label>
+            <br>
+
+            <!-- text area -->
+            <label for="otherexp">If Other, please specify: </label>
+            <textarea id="otherexp" name="special"></textarea>
+            <br>
+
+            <!-- text area 2 -->
+            <label for="meettimes">Times you are generally available: </label>
+            <textarea id="meettimes" name="meetingtimes"></textarea>
+            <br>
+
+            <!-- submit button -->
+            <input type="submit" value="Submit Request">
+
+         </form>
+
+</body>
+</html>
