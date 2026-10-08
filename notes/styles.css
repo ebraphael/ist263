@@ -1,0 +1,24 @@
+h1 {color:cornflowerblue}
+p {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+/* my paragraph text will be double size */
+
+p, h2 {color: darkred;}
+/* this is a grouped selector */
+
+p a {color: darkorchid;}
+/* descendant selector */
+/* changing color of a tags inside of p tags */
+
+#welcome {
+    color: grey;
+    text-decoration: none;
+}
+/* this id id selector */
+/* only styles one element */
+
+.doublesize {font-size: 2em;}

@@ -1,0 +1,9 @@
+body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h1, h2 { color:midnightblue; }
+
+/* table zebra row */
+.evenrow {background-color: khaki;}
+
+/* header font sizing */
+h1 { font-size: 3em;}
+h2 { font-size: 2em;}
