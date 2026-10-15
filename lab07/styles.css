@@ -1,0 +1,29 @@
+body {
+    color: #2E2633;
+    background-color: #EFFFCD;
+}
+
+p a {
+    color: #99173C;
+}
+
+h1, h2, h3 {
+    color: #2E2633;
+}
+
+/* class selectors for nav bar */
+
+nav {
+    background-color: #DCE9BE;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #99173C;
+}
+
+nav a:hover {
+    color: #DCE9BE;
+    background-color: #99173C;
+}
