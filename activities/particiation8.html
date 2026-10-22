@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation 8</title>
+    <style>
+        div div {
+            border: 1px solid lightblue;
+            padding: 20px;
+        }
+
+        section div {
+            border: 1px solid lightblue;
+            padding: 20px;
+        }
+
+        .flexthis {
+            display: flex;
+        }
+
+        .fifty {
+            flex: 1;
+        }
+
+        .fullwidth {
+            flex: 1;
+        }
+
+        .box25 {flex: 1;}
+        .box75 {flex: 3;}
+
+    </style>
+</head>
+<body>
+
+<!-- row 1 -->
+<div class="flexthis" style="text-align: center;">
+    <div class="fullwidth">1</div>
+</div>
+
+<!-- row 2 -->
+<section class="flexthis">
+    <div class="box25">2</div>
+    <div class="box75">3</div>
+</section>
+
+<!-- row 3 -->
+<section class="flexthis">
+    <div class="fifty">4</div>
+    <div class="fifty">5</div>
+</section>
+
+</body>
+</html>
