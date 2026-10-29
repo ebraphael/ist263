@@ -42,6 +42,10 @@ nav a:hover {
     align-items: flex-end;
 }
 
+.flexcontact2 {
+    flex-wrap: wrap;
+}
+
 .flexsection1, .flexsection2 {
     margin-right: 40px;
 }
@@ -54,3 +58,26 @@ nav a:hover {
 .formfield-margin {
     margin-bottom: 20px;
 }
+
+.banner-image {
+    max-width: 100%;
+}
+
+/* media queries */
+@media only screen and (max-width: 800px) {
+    .flexmap {
+        padding: 0;
+        width: 300;
+    } /* inside media query takes display of element away */
+
+    nav a {
+        width: 100%;
+        display: block;
+        padding: 8px;
+    }
+
+    span {
+        display: none;
+    }
+
+    }
