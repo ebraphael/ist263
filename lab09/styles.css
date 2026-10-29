@@ -81,3 +81,10 @@ nav a:hover {
     }
 
     }
+
+@media only screen and (min-width: 800px) {
+    .flexmap {
+        width: 600; 
+        height: 450;
+    }
+}
