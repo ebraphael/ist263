@@ -1,0 +1,110 @@
+/* gray #EAEAEA */
+/* dark blue #18314F */
+/* wisteria blue #8390FA */
+/* tomato red #CC2936 */
+/* deep crimson #931F1D */
+
+/* NAV */
+nav {
+    background-color: #EAEAEA;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #18314F;
+    text-align: center;
+}
+
+nav a {
+    color: #18314F;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: large;
+}
+
+nav a:hover {
+    color: #8390FA;
+}
+
+body {
+    color: #18314F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #8390FA;
+}
+
+figure {
+    text-align: center;
+}
+
+figure figcaption {
+    font-size: 0.5em;
+}
+
+.metalheader {
+    color: #ffffff;
+    background-color: #931F1D;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.overview {
+    display: flex ;
+    padding: 40px;
+}
+
+.metalsmithing {
+    padding-right: 40px;
+}
+
+.metalsmithinglist {
+    display: flex;
+}
+
+.earringsfigure {
+    flex: 1;
+}
+
+.earringsfigure figure {
+    margin: 0;
+    text-align: center;
+}
+
+.earringsfigure img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.braceletfigure {
+    flex: 1;
+}
+
+.braceletfigure figure {
+    margin: 0;
+    text-align: left;
+}
+
+.braceletfigure img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+}
