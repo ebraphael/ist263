@@ -55,6 +55,10 @@ h3 {
     color: #6E0D25;
 }
 
+footer h3 {
+    color: #F5F0EA;
+}
+
 figure {
     margin: 0;
     text-align: center;
