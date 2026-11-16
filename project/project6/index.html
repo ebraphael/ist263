@@ -10,15 +10,21 @@
 <body>
 
     <!-- navigation bar -->
-        <nav>
+        <nav class="navlinks">
             <a href="index.html">Home</a> | 
             <a href="materials.html">Materials and Metals</a> | 
             <a href="spotlight.html">Jeweler Spotlight</a>
         </nav>
 
+        <nav class="mobilelinks">
+            <a href="index.html">Home</a> <br>
+            <a href="materials.html">Materials and Metals</a> <br>
+            <a href="spotlight.html">Jeweler Spotlight</a>
+        </nav>
+
     <!-- header image -->
         <header>
-        <img src="../../images/L05-banner-sized.png" alt="Site Banner | Eliza Raphael">
+        <img src="../../images/jewelry_banner.jpg" alt="Site Banner | Eliza Raphael" class="sitebanner">
         </header>
 
     <!-- metalsmithing section -->
@@ -106,7 +112,9 @@
     </section>
 
     <!-- metalsmithing history -->
-        <img src="../media/metalsmithing_history_section.jpg" alt="History of Metalsmithing">
+    <figure>
+    <img src="../media/history_banner.jpg" alt="History of Metalsmithing" class="historyimg">
+    </figure>
     
     <section class="history">
         <div class="historycard">
@@ -136,21 +144,23 @@
 
     <!-- footer -->
      <footer>
-        <div>
-            <p>Eliza Raphael</p>
-        </div>
-        <div>
-            <a href="index.html">Home</a> | 
-            <a href="materials.html">Materials and Metals</a> | 
-            <a href="spotlight.html">Jeweler Spotlight</a>
-        </div>
-        <div>
-            <p>
-                Syracuse University <br>
-                School of Information Studies <br>
-                Syracuse, New York
-            </p>
-        </div>
+        <section class="sitefootsplit">
+            <div>
+                <p>Eliza Raphael</p>
+            </div>
+            <div class="footerlinks">
+                <a href="index.html">Home</a> <br>
+                <a href="materials.html">Materials and Metals</a> <br>
+                <a href="spotlight.html">Jeweler Spotlight</a>
+            </div>
+            <div class="footeraddress">
+                <p>
+                    Syracuse University <br>
+                    School of Information Studies <br>
+                    Syracuse, New York
+                </p>
+            </div>
+        </section>
      </footer>
     
 </body>
